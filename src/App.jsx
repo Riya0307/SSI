@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 
 function App() {
@@ -8,12 +8,12 @@ function App() {
   return (
     <>
       <div>
-        <Router>
+        <HashRouter>
           <Routes>
           <Route path="/" element={<Home />} />
 
           </Routes>
-        </Router>
+        </HashRouter>
        
       </div>
     </>
