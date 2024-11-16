@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('./RobotoFlex-VariableFont.ttf') format('truetype');
+  src: url(../RobotoFlex-VariableFont.ttf);
 }
 
 body {
