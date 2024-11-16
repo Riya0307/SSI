@@ -1,7 +1,7 @@
 /* Home.css */
 @font-face {
     font-family: OpenSans;
-    src: url(../OpenSans-VariableFont_wdth,wght.ttf);
+    src: url('./OpenSans-VariableFont_wdth,wght.ttf') format('truetype');;
   }
   
   * {
@@ -183,14 +183,14 @@ button:hover {
   }
   
   .description h2 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: #000000;
     margin-bottom: 60px;
     font-weight: 600;
   }
   
   .description span{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #3c3f41;
     font-weight: bold;
     margin-top: 2rem;
@@ -198,7 +198,7 @@ button:hover {
   }
   
   .description p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #1d1d1d;
     line-height: 1.6;
     margin-bottom: 1.5rem;
